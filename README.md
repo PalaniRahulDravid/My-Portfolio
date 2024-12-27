@@ -21,5 +21,5 @@ Visit the live website at: [GitHub Pages Link](https://PalaniRahulDravid.github.
 If you have any suggestions or questions, feel free to contact me!
 
 - **Email**: rahuldravidpalani2005@gmail.com
-- **LinkedIn**: [My LinkedIn Profile](linkedin.com/rahuldravid)
+- **LinkedIn**: [My LinkedIn Profile](linkedin.com/in/palani-rahul-dravid-a89916292)
 
