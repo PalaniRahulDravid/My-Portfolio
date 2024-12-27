@@ -20,3 +20,6 @@ Visit the live website at: [GitHub Pages Link](https://PalaniRahulDravid.github.
 ## Contact
 If you have any suggestions or questions, feel free to contact me!
 
+- **Email**: rahuldravidpalani2005@gmail.com
+- **LinkedIn**: [My LinkedIn Profile](linkedin.com/rahuldravid)
+
