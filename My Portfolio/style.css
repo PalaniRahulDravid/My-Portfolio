@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Poppins", Arial, sans-serif;
+font-weight: 100;
+font-style: normal; */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.banner
+{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    padding: 20px 12%;
+}
+
+.top
+{
+    width: 100%;
+    padding: 20px 10px;
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.logo
+{
+    width: 10%;
+    height: 110px;
+    /* background-color: white; */
+}
+img
+{
+    width: 60%;
+    height: 110px;
+    margin-left: 20px;
+}
+
+.top2
+{
+    width: 35%;
+    height: 110px;
+    /* background-color: white; */
+    
+
+}
+
+.icons
+{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    height: 40px;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.icon
+{
+    /* background-color: blue; */
+    font-size: 22px;
+    padding: 10px;
+}
+
+.icon:hover
+{
+    font-size: 30px;
+    cursor: pointer;
+    transition: font-size 0.3s ease-in-out;
+    
+}
+
+.btn
+{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00ffff;
+    border: 2px solid #00ffff;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn:focus {
+    outline: 2px dashed #00ffff;
+}
+
+/* my profile section */
+
+.profile-content
+{
+    width: 100%;
+    padding: 25px 0px;
+    /* background-color: white; */
+    display: flex;
+    column-gap: 5%;
+    align-items: center;
+}
+
+.name
+{
+    width: 60%;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 9px;
+    font-family: "Poppins", Arial, sans-serif;
+    color: white;
+}
+
+.my-name
+{
+    font-size: 60px;
+    color: #00ffff;
+}
+
+.p
+{
+    font-size: 18px;
+}
+
+.p-btn
+{
+    margin-top: 15px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.picture
+{
+    width: 40%;
+    /* background-color: red;  */
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.pic 
+{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+.my-pic
+{
+    width: 60%;
+    background-color: #086161;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    z-index: 10;
+
+    
+}
+
+.bg
+{
+    width: 60%;
+    height: 350px;
+    background-color: #00ffff;
+    transform: rotateZ(-40deg);
+    border-radius: 10px;
+    
+    
+}
+.pic
+{
+    width: 100%;
+    height: 300px;
+    margin-left: -1px;
+    vertical-align: bottom;
+}
+
+
+/* <!-- Full details section --> */
+
+
+.banner2
+{
+    width: 100%;
+    padding: 20px 12%;
+    background-color: #000000;
+    position: relative;
+}
+
+.nav
+{
+    width: 100%;
+    background-color:#232222 ;
+    font-family: "Poppins", Arial, sans-serif;
+    display: flex;
+    column-gap: 10px ;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-item
+{
+    width: 100px;
+    height: 80px;
+    background-color: #000000;
+    color: #00ffff;
+    padding: 10px 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.nav-item:hover
+{
+    width: 200px;
+}
+
+.nav-links
+{
+    width: 200px;
+    /* background-color: green; */
+    padding: 10px 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+.nav-i
+{
+    display: inline-block;
+    font-size: 22px;
+    /* color: #00ffff; */
+}
+
+.nav-p
+{
+    display: inline-block;
+    margin-left: 55px;
+    transition: .3s;
+    /* color: white; */
+    
+}
+
+.nav-item:hover .nav-links > p
+{
+    margin-left: 8px;
+}
+
+
+/* <!-- Content area --> */
+
+.main-content
+{
+    width: 100%;
+    padding: 20px 12%;
+    background-color: #000000;
+}
+
+.content-area
+{
+    width: 100%;
+    padding: 20px 30px;
+    background-color: #232222;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+/* about section */
+
+
+.about-me
+{
+    width: 100%;
+    padding: 20px 0px;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 6%;
+    row-gap: 15px;
+    color: white;
+}
+
+.about
+{
+    width: 47%;
+    padding: 10px 10px;
+    /* background-color: gray; */
+    background-color:  #0c0c0c;
+    border-radius: 10px;
+    
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8px;
+    color: #00ffff;
+}
+
+.skills
+{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+
+.skill
+{
+    background-color:#646363 ;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+
+/* services section */
+
+.education-section
+{
+    display: none;
+}
+
+.education
+{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #232222;
+    display: flex;
+    column-gap: 2%;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    /* justify-content: center; */
+}
+
+.clg-details
+{
+    width: 49%;
+    background-color: #0c0c0c;
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    border-radius: 10px;
+    /* color: white; */
+}
+
+.clg-details-list
+{
+    /* padding-left: 20px; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    list-style-type: none;
+}
+
+.projects
+{
+    margin-left: 40px;
+    list-style-type: circle;
+}
+
+.btech-width
+{
+    width: 100%;
+}
+
+.h3
+{
+    color: #00ffff;
+}
+
+
+/* My Location css */
+
+.location-section
+{
+    display: none;
+}
+
+.location
+{
+    width: 100%;
+    background-color: #000000;
+    padding: 20px 0px;
+    font-family: "Poppins", Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.location-details
+{
+    width: 25%;
+    list-style-type: none;
+}
+
+.location-details > h2
+{
+    color: #00ffff;
+}
+
+.map
+{
+    width: 70%;
+    height: 350px;
+    /* background-color: red; */
+}
+
+/* My project details  */
+
+.Myprojects
+{
+    width: 100%;
+    height: 200px;
+    background-color:#0c0c0c;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+.project1
+{
+    width: 100%;
+    padding: 20px 0px;
+    /* background-color: yellow; */
+    color: white;
+    text-align: center;
+}
+
+
+
+/* contact details */
+
+.contact-section
+{
+    display: none;
+}
+
+
+.contact {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact >h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #00ffff;
+    text-align: center;
+}
+
+.contact > p {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px; */
+}
+
+.contact-info > li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+.active
+{
+    background-color: #26c6da;
+    color:black;
+}
+
+
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 20px 5%;
+    }
+
+    .top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
+    .top2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .icons {
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .icon {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .profile-content {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .name {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    .my-name {
+        font-size: 40px;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    .picture {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .my-pic {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .bg {
+        width: 80%;
+        height: 250px;
+        transform: rotateZ(-20deg);
+    }
+
+    .pic {
+        height: 250px;
+    }
+    .banner2 {
+        padding: 20px 5%; /* Adjust the padding for smaller screens */
+    }
+    .about {
+        width: 100%;
+    }
+
+    .clg-details {
+        width: 100%;
+    }
+
+    .nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+
+    .nav-item {
+        width: 90%; /* Ensure each item takes full width */
+        max-width: 300px;
+        margin-bottom: 10px; /* Add space between items */
+    }
+
+    .nav-links {
+        justify-content: center; /* Center the content horizontally */
+    }
+
+    .nav-item:hover {
+        width: 100%; /* Ensure the hover effect doesn't break layout */
+    }
+    .main-content {
+        padding: 40px 10px;  /* Adjust padding to make it look good on mobile */
+    }
+
+    .location{
+        display: block;
+    }
+
+    .location-details{
+        width: 100%;
+        text-align: center;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+}
