@@ -76,3 +76,17 @@ $(document).ready(function(){
         $(".contact-link").addClass("active");
     })
 })
+
+function showContact() {
+    const aboutSection = document.getElementById('about-section');
+    const contactSection = document.getElementById('contact-section');
+    
+    if (aboutSection.style.display === 'block' || aboutSection.style.display === '') {
+        aboutSection.style.display = 'none';
+        contactSection.style.display = 'block';
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+    } else {
+        aboutSection.style.display = 'block';
+        contactSection.style.display = 'none';
+    }
+}

@@ -545,6 +545,7 @@ img.pic
 
     .icons {
         justify-content: center;
+        flex-wrap: wrap;
         margin-top: 20px;
         margin-left: 0;
     }
@@ -557,36 +558,40 @@ img.pic
     .profile-content {
         flex-direction: column;
         align-items: center;
-        row-gap: 30px;
+        /* row-gap: 30px; */
     }
 
     .name {
         width: 100%;
+        flex: none;
         text-align: center;
-        height: auto;
+        /* height: auto; */
     }
 
     .my-name {
-        font-size: 40px;
-    }
-
-    .p {
-        font-size: 16px;
+        font-size: 2rem;
     }
 
     .picture {
         width: 100%;
+        flex: none;
+        text-align: center;
         margin-top: 10px;
     }
 
-    .my-pic {
-        width: 80%;
-        margin-bottom: 20px;
+    .my-pic img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 1rem;
     }
 
     .bg {
-        width: 80%;
-        height: 250px;
+        width: 160px;
+        height: 160px;
         transform: rotateZ(-20deg);
     }
 
@@ -594,7 +599,7 @@ img.pic
         height: 250px;
     }
     .banner2 {
-        padding: 20px 5%; /* Adjust the padding for smaller screens */
+        padding: 20px 5%;
     }
     .about {
         width: 100%;
@@ -605,27 +610,27 @@ img.pic
     }
 
     .nav {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: column;
         align-items: center;
     }
 
     .nav-item {
-        width: 90%; /* Ensure each item takes full width */
+        width: 90%;
         max-width: 300px;
-        margin-bottom: 10px; /* Add space between items */
+        margin-bottom: 10px;
     }
 
     .nav-links {
-        justify-content: center; /* Center the content horizontally */
+        justify-content: center;
     }
 
     .nav-item:hover {
-        width: 100%; /* Ensure the hover effect doesn't break layout */
+        width: 100%;
     }
     .main-content {
-        padding: 40px 10px;  /* Adjust padding to make it look good on mobile */
+        padding: 40px 10px;
     }
-
+    
     .location{
         display: block;
     }
